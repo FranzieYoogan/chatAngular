@@ -30,3 +30,39 @@
     box-shadow: 0px 0px 4px 2px purple;
     border: 1px solid purple;
 }
+
+.bubbleContainer {
+
+    margin-left: 1em;
+    margin-bottom: 1em;
+   
+
+}
+
+.containerItemBubble {
+
+    border: 1px solid white;
+    background-color: #b76399;
+}
+
+.botName {
+
+    color: Red;
+    text-shadow: 1px 1px 1px purple;
+    font-weight: 900;
+
+}
+
+.pStyle {
+
+    color: white;
+    text-shadow: 2px 2px 2px purple;
+    font-style: italic;
+}
+
+.dateBubbleStyle {
+
+    color: white;
+    text-shadow: 2px 2px 2px purple;
+
+}

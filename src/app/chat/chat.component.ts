@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 
 @Component({
@@ -8,7 +8,15 @@ import { HeaderComponent } from '../header/header.component';
   templateUrl: './chat.component.html',
   styleUrl: './chat.component.css'
 })
-export class ChatComponent {
+export class ChatComponent implements OnInit {
+
+  ngOnInit(): void {
+    
+    const dateBubble:any = document.getElementById('dateBubble')
+    const date = new Date()
+    dateBubble.innerHTML = date.toString().slice(0,25)
+
+  }
 
 
   eventFocus() {
