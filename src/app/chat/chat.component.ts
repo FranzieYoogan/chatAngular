@@ -10,4 +10,23 @@ import { HeaderComponent } from '../header/header.component';
 })
 export class ChatComponent {
 
+
+  eventFocus() {
+
+    const labelStyle:any = document.getElementById('labelStyle')
+
+    labelStyle.style.top = "-20%"
+    labelStyle.style.transition = "1s"
+
+  }
+
+  eventFocusOut() {
+
+    const labelStyle:any = document.getElementById('labelStyle')
+
+    labelStyle.style.top = "23%"
+    labelStyle.style.transition = "1s"
+    
+  }
+
 }

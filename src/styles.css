@@ -7,3 +7,13 @@ body {
     background-position-y: 10%;
 
 }
+
+@media only screen and (width: 400px) {
+    body {
+        background: url('/assets/background/forest.png');
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position-y: 10%;
+        background-position-x: 30%;
+    }
+  }
