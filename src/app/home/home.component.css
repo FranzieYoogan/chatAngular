@@ -48,3 +48,17 @@
     margin-left: 0.1em;
 
 }
+
+.subtitleStyle {
+
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 2px purple;
+    position: relative;
+    top: 10px;
+    left: 8em;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute
+
+}
