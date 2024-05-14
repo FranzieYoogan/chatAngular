@@ -56,6 +56,39 @@ export class ChatComponent implements OnInit {
 
       }
 
+      if(event.target.value == "good") {
+
+        containerItemBubble.style.marginBottom = "3em"
+        containerItemBubble.style.transition = "1s"
+        containerItemBubble.style.opacity = "0"
+
+        setTimeout(() => {
+          
+          containerItemBubble.style.marginBottom = "0em"
+          containerItemBubble.style.transition = "1s"
+          containerItemBubble.style.opacity = "1"
+          pStyle.innerHTML = "that's GREAT!!! did you brush your teeth today ?-? (3 - YES, 4 - NO)"
+        }, 1000);
+
+      }
+
+      if(event.target.value == "fine") {
+
+        containerItemBubble.style.marginBottom = "3em"
+        containerItemBubble.style.transition = "1s"
+        containerItemBubble.style.opacity = "0"
+
+        setTimeout(() => {
+          
+          containerItemBubble.style.marginBottom = "0em"
+          containerItemBubble.style.transition = "1s"
+          containerItemBubble.style.opacity = "1"
+          pStyle.innerHTML = "that's GREAT!!! did you brush your teeth today ?-? (3 - YES, 4 - NO)"
+        }, 1000);
+
+      }
+
+
       if(event.target.value == "2") {
 
         containerItemBubble.style.marginBottom = "3em"
