@@ -88,6 +88,35 @@ export class ChatComponent implements OnInit {
 
       }
 
+      if(event.target.value == "4") {
+
+        containerItemBubble.style.marginBottom = "3em"
+        containerItemBubble.style.transition = "1s"
+        containerItemBubble.style.opacity = "0"
+
+        setTimeout(() => {
+          
+          containerItemBubble.style.marginBottom = "0em"
+          containerItemBubble.style.transition = "1s"
+          containerItemBubble.style.opacity = "1"
+          pStyle.innerHTML = "YOOO!!! That's bad lil homie go on and brush it now!! I'm waiting ."
+        }, 1000);
+
+        setTimeout(() => {
+          pStyle.innerHTML = "YOOO!!! That's bad lil homie go on and brush it now!! I'm waiting . ."
+        }, 2000);
+
+        setTimeout(() => {
+          pStyle.innerHTML = "YOOO!!! That's bad lil homie go on and brush it now!! I'm waiting . . ."
+        }, 3000);
+
+        setTimeout(() => {
+          pStyle.innerHTML = "Did you brush it ?-? (3 - YES, 4 - NO)"
+        }, 4000);
+
+      }
+
+
 
       if(event.target.value == "2") {
 
