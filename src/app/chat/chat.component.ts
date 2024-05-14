@@ -23,7 +23,7 @@ export class ChatComponent implements OnInit {
 
     message.addEventListener('input', (event: { target: { value: string; }; }) => {
 
-      if(event.target.value == "fine") {
+      if(event.target.value == "bad") {
 
         containerItemBubble.style.marginBottom = "3em"
         containerItemBubble.style.transition = "1s"
@@ -39,7 +39,7 @@ export class ChatComponent implements OnInit {
 
       }
 
-      if(event.target.value == "good") {
+      if(event.target.value == "horrible") {
 
         containerItemBubble.style.marginBottom = "3em"
         containerItemBubble.style.transition = "1s"
