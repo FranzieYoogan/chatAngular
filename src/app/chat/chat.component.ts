@@ -34,7 +34,7 @@ export class ChatComponent implements OnInit {
           containerItemBubble.style.marginBottom = "0em"
           containerItemBubble.style.transition = "1s"
           containerItemBubble.style.opacity = "1"
-          pStyle.innerHTML = "that's so sad, you wanna see a video ?-? maybe u gon feel better(1 YES, 2 NO)"
+          pStyle.innerHTML = "that's so sad, you wanna see a video ?-? maybe u gon feel better (1 YES, 2 NO)"
         }, 1000);
 
       }
@@ -50,7 +50,24 @@ export class ChatComponent implements OnInit {
           containerItemBubble.style.marginBottom = "0em"
           containerItemBubble.style.transition = "1s"
           containerItemBubble.style.opacity = "1"
-          pStyle.innerHTML = "that's so sad, you wanna see a video ?-? maybe u gon feel better(1 YES, 2 NO)"
+          pStyle.innerHTML = "that's so sad, you wanna see a video ?-? maybe u gon feel better (1 YES, 2 NO)"
+
+        }, 1000);
+
+      }
+
+      if(event.target.value == "2") {
+
+        containerItemBubble.style.marginBottom = "3em"
+        containerItemBubble.style.transition = "1s"
+        containerItemBubble.style.opacity = "0"
+        
+        setTimeout(() => {
+          
+          containerItemBubble.style.marginBottom = "0em"
+          containerItemBubble.style.transition = "1s"
+          containerItemBubble.style.opacity = "1"
+          pStyle.innerHTML = "EERR.... do you think that leon from RE is pretty ?-? (yes, i do, No, i don't)"
 
         }, 1000);
 
