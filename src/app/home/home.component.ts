@@ -39,7 +39,7 @@ export class HomeComponent {
 
     
        subtitle.style.left = "6em"
- 
+       iconStyle.style.border = "1px solid transparent"
       subtitle.style.transition = "1s"
 
       setTimeout(() => {
